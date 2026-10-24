@@ -1,0 +1,140 @@
+{
+  "controller_type": "oculus_touch",
+  "description": "Grip steering, trigger pedals, right stick gears/views; left stick menus or steering.",
+  "name": "Over The Hill VR - Quest Touch",
+  "bindings": {
+    "/actions/drive": {
+      "sources": [
+        {
+          "path": "/user/hand/left/input/trigger",
+          "mode": "trigger",
+          "inputs": {
+            "pull": {
+              "output": "/actions/drive/in/Brake"
+            }
+          }
+        },
+        {
+          "path": "/user/hand/left/input/grip",
+          "mode": "trigger",
+          "inputs": {
+            "click": {
+              "output": "/actions/drive/in/LeftGrip"
+            }
+          },
+          "parameters": {
+            "click_activate_threshold": "0.55",
+            "click_deactivate_threshold": "0.35"
+          }
+        },
+        {
+          "path": "/user/hand/left/input/joystick",
+          "mode": "joystick",
+          "inputs": {
+            "position": {
+              "output": "/actions/drive/in/LeftStick"
+            },
+            "click": {
+              "output": "/actions/drive/in/LeftClick"
+            }
+          },
+          "parameters": {
+            "deadzone_pct": "15"
+          }
+        },
+        {
+          "path": "/user/hand/right/input/trigger",
+          "mode": "trigger",
+          "inputs": {
+            "pull": {
+              "output": "/actions/drive/in/Gas"
+            }
+          }
+        },
+        {
+          "path": "/user/hand/right/input/grip",
+          "mode": "trigger",
+          "inputs": {
+            "click": {
+              "output": "/actions/drive/in/RightGrip"
+            }
+          },
+          "parameters": {
+            "click_activate_threshold": "0.55",
+            "click_deactivate_threshold": "0.35"
+          }
+        },
+        {
+          "path": "/user/hand/right/input/joystick",
+          "mode": "joystick",
+          "inputs": {
+            "position": {
+              "output": "/actions/drive/in/RightStick"
+            },
+            "click": {
+              "output": "/actions/drive/in/RightClick"
+            }
+          },
+          "parameters": {
+            "deadzone_pct": "15"
+          }
+        },
+        {
+          "path": "/user/hand/right/input/a",
+          "mode": "button",
+          "inputs": {
+            "click": {
+              "output": "/actions/drive/in/A"
+            }
+          }
+        },
+        {
+          "path": "/user/hand/right/input/b",
+          "mode": "button",
+          "inputs": {
+            "click": {
+              "output": "/actions/drive/in/B"
+            }
+          }
+        },
+        {
+          "path": "/user/hand/left/input/x",
+          "mode": "button",
+          "inputs": {
+            "click": {
+              "output": "/actions/drive/in/X"
+            }
+          }
+        },
+        {
+          "path": "/user/hand/left/input/y",
+          "mode": "button",
+          "inputs": {
+            "click": {
+              "output": "/actions/drive/in/Y"
+            }
+          }
+        },
+        {
+          "path": "/user/hand/left/input/application_menu",
+          "mode": "button",
+          "inputs": {
+            "click": {
+              "output": "/actions/drive/in/Menu"
+            }
+          }
+        }
+      ],
+      "poses": [
+        {
+          "path": "/user/hand/left/pose/raw",
+          "output": "/actions/drive/in/LeftPose"
+        },
+        {
+          "path": "/user/hand/right/pose/raw",
+          "output": "/actions/drive/in/RightPose"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+over the hill vr - credits
+
+Mod code and procedural interior/roof: segadreamcat (MIT; see LICENSE).
+Development assisted by Claude and Codex.
+
+MelonLoader 0.7.3: LavaGang, Apache-2.0. Unmodified loader binaries bundled.
+https://github.com/LavaGang/MelonLoader
+Its license and notice are in MelonLoader/Documentation.
+
+OpenVR: Valve Corporation, BSD 3-Clause.
+See OTHVR-Docs/licenses/OpenVR-LICENSE.txt.
+
+Third-party models retain their own licenses; they are not covered by the
+mod code's MIT license. Model modifications do not imply creator endorsement.
+
+wheel.othm: Classic Steering Wheel
+Model by Kryox Shade - https://sketchfab.com/kryoxshade
+https://sketchfab.com/3d-models/classic-steering-wheel-ec505b832bfa4061b6f9e86c0560f474
+CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+Changes: Converted to OTHM; scale, orientation, materials and textures adapted for the cockpit.
+
+shifter.othm: Manual Transmission Shifter
+Model by Kryox Shade - https://sketchfab.com/kryoxshade
+https://sketchfab.com/3d-models/manual-transmission-shifter-dff28ef3fae0432db721049c3891c322
+CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+Changes: Converted to OTHM; scale, orientation, materials and textures adapted for the cockpit.
+
+cab.othm: Pickup Truck
+Model by 00amza - https://sketchfab.com/00amza
+https://sketchfab.com/3d-models/pickup-truck-047615f53e2d45b9a1a2a4dd203d459c
+CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+Changes: Converted to OTHM; cab extracted, steering wheel/glass/mirrors removed, roof cut, scale and materials adapted. Retained optional asset.
+
+arms.oths: FREE [FPS Arms] GameReady - RIGGED
+Model by BAMEN - https://sketchfab.com/bamenwo05
+https://sketchfab.com/3d-models/free-fps-arms-gameready-rigged-296d30fc705b4dff85c2c8a2d2724e7f
+CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+Changes: Converted to OTHS; rig coordinates, scale, mesh data and textures adapted. Retained optional asset.
+
+Over the Hill belongs to its creators. This is an unofficial fan mod.
+No game files are included.

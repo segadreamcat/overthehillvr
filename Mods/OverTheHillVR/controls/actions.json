@@ -1,0 +1,113 @@
+{
+  "action_manifest_version": 0,
+  "actions": [
+    {
+      "name": "/actions/drive/in/LeftGrip",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/drive/in/RightGrip",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/drive/in/A",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/drive/in/B",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/drive/in/X",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/drive/in/Y",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/drive/in/Menu",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/drive/in/LeftClick",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/drive/in/RightClick",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/drive/in/Gas",
+      "type": "vector1",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/drive/in/Brake",
+      "type": "vector1",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/drive/in/LeftStick",
+      "type": "vector2",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/drive/in/RightStick",
+      "type": "vector2",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/drive/in/LeftPose",
+      "type": "pose",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/drive/in/RightPose",
+      "type": "pose",
+      "requirement": "optional"
+    }
+  ],
+  "action_sets": [
+    {
+      "name": "/actions/drive",
+      "usage": "leftright"
+    }
+  ],
+  "default_bindings": [
+    {
+      "controller_type": "oculus_touch",
+      "binding_url": "bindings_oculus_touch.json"
+    }
+  ],
+  "localization": [
+    {
+      "language_tag": "en_US",
+      "/actions/drive": "Over The Hill driving",
+      "/actions/drive/in/LeftGrip": "LeftGrip",
+      "/actions/drive/in/RightGrip": "RightGrip",
+      "/actions/drive/in/A": "A",
+      "/actions/drive/in/B": "B",
+      "/actions/drive/in/X": "X",
+      "/actions/drive/in/Y": "Y",
+      "/actions/drive/in/Menu": "Menu",
+      "/actions/drive/in/LeftClick": "LeftClick",
+      "/actions/drive/in/RightClick": "RightClick",
+      "/actions/drive/in/Gas": "Gas",
+      "/actions/drive/in/Brake": "Brake",
+      "/actions/drive/in/LeftStick": "LeftStick",
+      "/actions/drive/in/RightStick": "RightStick",
+      "/actions/drive/in/LeftPose": "LeftPose",
+      "/actions/drive/in/RightPose": "RightPose"
+    }
+  ]
+}
