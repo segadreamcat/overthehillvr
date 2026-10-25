@@ -2,7 +2,7 @@ over the hill vr
 
 Get in, grab the wheel, and go get lost in the mountains. No wheel? An Xbox controller or Quest controllers work too.
 
-This is the full mod, with MelonLoader 0.7.3, the cockpit, mirrors, dashboard, and controller bindings included. You still need your own Windows Steam copy of Over the Hill. This is PCVR, so your Quest needs to be connected to your PC.
+This is the full mod, with MelonLoader 0.7.3, the cockpit, mirrors, dashboard, console GPS, automatic rain wipers, and controller bindings included. You still need your own Windows Steam copy of Over the Hill. This is PCVR, so your Quest needs to be connected to your PC.
 
 Install
 
@@ -12,7 +12,7 @@ Install
 4. In Steam > Properties > Launch Options, add -force-d3d11.
 5. Connect your headset to your PC, open SteamVR, then launch the game through Steam. The first launch needs internet and can take a few minutes while the loader sets things up. Let it finish.
 
-Zoom all the way in to get into the driver's seat. The modeled cockpit is for the Protector. Other vehicles use the hood view.
+Zoom all the way in to get into the driver's seat. The custom cockpit and dashboard are used across cars and paint jobs. The center-console GPS shows the local map and your heading. It follows you automatically; no extra buttons needed. When it rains, droplets collect on the windshield and the wipers start automatically.
 
 Gamepad
 
@@ -37,7 +37,7 @@ Turn off your Xbox controller and unplug the wheel first. If either is connected
 - Right stick up / down: change view and zoom.
 - Click and release the right stick: parking brake. Click both sticks together: recenter.
 - X: 4H / 4L. Y: attach winch. A: interact, extend winch, or confirm. B: release winch or go back.
-- Left stick: navigate menus. Left menu button: pause.
+- Left stick: navigate menus. Hold the left stick click for one second to pause. Select Main Menu with the stick and A to leave the drive.
 
 Wheel
 
@@ -60,4 +60,4 @@ Settings live in UserData/MelonPreferences.cfg. If something breaks, send me Mel
 
 To uninstall, close the game and restore your backup. On a clean install, removing this ZIP's version.dll stops the loader and mod from loading.
 
-Unofficial fan mod by segadreamcat. Thanks to Funselektor, LavaGang, Valve, and the model creators credited in OTHVR-Docs/CREDITS.txt. Mod version 0.4.10.
+Unofficial fan mod by segadreamcat. Thanks to Funselektor, LavaGang, Valve, and the model creators credited in OTHVR-Docs/CREDITS.txt. Mod version v1.6.

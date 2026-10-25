@@ -1,9 +1,11 @@
-Over the Hill VR 0.4.10 - full Windows x64 release
+Over the Hill VR v1.6 - full Windows x64 release
 
-Includes the installed 0.3.1 VR core with wheel scrolling hotfix, the 0.4.10
+Includes the installed 0.3.2 VR core with wheel scrolling hotfix and universal
+cockpit eligibility, the 0.4.16
 cockpit/controller companion, all installed mod asset files, Touch bindings,
 OpenVR, the working mod settings, and MelonLoader 0.7.3 with its dependencies.
-The dashboard images/font are embedded in the companion DLL.
+The dashboard images/font and GPS geometry are embedded in the companion DLL.
+The GPS reads the installed game map at runtime; no game map asset is bundled.
 
 Disabled FPP/TrailWheel placeholder mods, test helpers, logs, screenshots,
 saves, game binaries, and generated game/Unity reference caches are excluded.
