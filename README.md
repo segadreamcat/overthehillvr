@@ -60,4 +60,4 @@ Settings live in `UserData/MelonPreferences.cfg`. If something breaks, send me `
 
 To uninstall, close the game and restore your backup. On a clean install, removing this ZIP's `version.dll` stops the loader and mod from loading.
 
-Unofficial fan mod by segadreamcat. Thanks to Funselektor, LavaGang, Valve, and the model creators credited in `OTHVR-Docs/CREDITS.txt`. Mod version v1.6.
+Unofficial fan mod by segadreamcat. Thanks to Funselektor, LavaGang, Valve, and the model creators credited in `OTHVR-Docs/CREDITS.txt`. Codex and Claude both were used. Mod version v1.6.
