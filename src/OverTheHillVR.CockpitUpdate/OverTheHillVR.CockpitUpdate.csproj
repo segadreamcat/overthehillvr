@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>OverTheHillVR.CockpitUpdate</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net6.0</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <AssemblySearchPaths>$(AssemblySearchPaths);..\..\MelonLoader\Il2CppAssemblies;..\..\MelonLoader\net6</AssemblySearchPaths>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="OTH.Instruments.Font" />
+    <None Remove="OTH.Instruments.MPH" />
+    <None Remove="OTH.Instruments.KMH" />
+    <EmbeddedResource Include="OTH.Instruments.Font" LogicalName="OTH.Instruments.Font" />
+    <EmbeddedResource Include="OTH.Instruments.MPH" LogicalName="OTH.Instruments.MPH" />
+    <EmbeddedResource Include="OTH.Instruments.KMH" LogicalName="OTH.Instruments.KMH" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Private.CoreLib">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.36\System.Private.CoreLib.dll</HintPath>
+    </Reference>
+    <Reference Include="MelonLoader">
+      <HintPath>..\..\MelonLoader\net6\MelonLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule" />
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>..\..\MelonLoader\net6\Il2CppInterop.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp" />
+    <Reference Include="Il2CppDistantLands.Cozy.Runtime" />
+    <Reference Include="Il2Cppmscorlib">
+      <Aliases>il2cppmscorlib</Aliases>
+    </Reference>
+    <Reference Include="Unity.ResourceManager" />
+    <Reference Include="0Harmony">
+      <HintPath>..\..\MelonLoader\net6\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppGPUInstancerPro.Core" />
+    <Reference Include="Il2CppFusion.Runtime" />
+    <Reference Include="UnityEngine.UI" />
+    <Reference Include="Unity.InputSystem" />
+    <Reference Include="OverTheHillVR">
+      <HintPath>..\..\Mods\OverTheHillVR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule" />
+    <Reference Include="UnityDirectInput.Runtime" />
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime" />
+    <Reference Include="Unity.Addressables" />
+    <Reference Include="Il2CppFunselektor.FunCore.Runtime" />
+    <Reference Include="Unity.TextMeshPro" />
+    <Reference Include="UnityEngine.ImageConversionModule" />
+  </ItemGroup>
+</Project>
