@@ -6,6 +6,7 @@ This is the full mod, with MelonLoader 0.7.3, the cockpit, mirrors, dashboard, c
 
 ## Install
 
+
 1. Close the game. If you already have mods, back up your `Mods`, `MelonLoader`, and `UserData` folders and `version.dll` first.
 2. Install SteamVR and the [.NET 6 Desktop Runtime, Windows x64](https://dotnet.microsoft.com/en-us/download/dotnet/6.0). For a G29, install Logitech G HUB too.
 3. In Steam, right-click Over the Hill > Manage > Browse local files. Extract everything from this ZIP right there, beside `over the hill.exe`. Merge folders and replace files. Don't put it inside another folder.
@@ -49,6 +50,14 @@ Tested with the Logitech G29. Leave G HUB running, set its operating range to 90
 - Cross: interact / confirm. Circle: release winch / back. Square: 4H / 4L. Triangle: attach winch.
 - Options: pause. Plus: recenter. Minus: screenshot.
 - Red dial: seat up / down. Press the dial: HUD on / off. Hold PS for a second: VR on / off.
+
+### Fanatec CSL DD & Direct Drive
+
+Full support for Fanatec CSL DD, GT DD Pro, and ClubSport bases:
+- **Dual-Topology Support**: Automatically accommodates both single-connection setups (pedals, shifter, handbrake plugged into the CSL DD base via RJ12) and modular split setups (standalone USB pedals).
+- **Load Cell Brakes**: Automatically detects and handles Fanatec load cell brake pedals on axis `lZ` or `lRz`.
+- **Direct Drive Safety**: Softened startup calibration kick and Direct Drive torque scaling to prevent sudden 8 Nm wheel jerks.
+- **FanaLab / Driver Settings**: Set your wheel rotation to 900 degrees in Fanatec Control Panel / FanaLab, and disable Steam Input for the wheel in Steam.
 
 ## If something gets weird
 

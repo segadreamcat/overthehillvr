@@ -1,0 +1,12 @@
+# Visual Studio / .NET build artifacts
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.tmp
+
+# Logs and user test caches
+MelonLoader/Logs/
+MelonLoader/Dependencies/Il2CppAssemblyGenerator/
+MelonLoader/Il2CppAssemblies/
